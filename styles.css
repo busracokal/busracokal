@@ -1,0 +1,48 @@
+*{
+    margin: 12px 50px;
+    padding: 0;
+}
+body {
+   width: 100%;
+   background-color: #798d99;
+}
+h1{
+    font-family: "Kalam", cursive;
+    border: 1px solid #550202;
+    position: fixed;
+}
+h2 {
+   background-color: #b68c8cc2;
+   color: #000000;
+   font-family: "Kalam", cursive;
+}
+.main-content {
+     width: 70%;
+     float: left;
+     padding: 10px;
+}
+.deneme{
+   margin:0 auto;
+   font-size: 18px;
+   background-color: #a1a1a1;
+   color:#000000
+}
+.liste {
+   background-color: #beaeae;
+   color: #000000;
+}
+.foto {
+  width: 70%;
+}
+.links {
+    border: 1px solid #350000;
+    display: flex;
+    justify-content: flex-end;
+}
+.login{
+    margin-left: 20px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
