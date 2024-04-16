@@ -1,6 +1,7 @@
 *{
-    margin: 12px 50px;
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
    width: 100%;
@@ -9,7 +10,6 @@ body {
 h1{
     font-family: "Kalam", cursive;
     border: 1px solid #550202;
-    position: fixed;
 }
 h2 {
    background-color: #b68c8cc2;
@@ -45,4 +45,54 @@ h2 {
 .menu {
     display: flex;
     justify-content: space-between;
+    border: 1px solid #000000;
+    width: flex;
+}
+.menu-container {
+    color: #000000;
+    background-color: #79606000;
+    padding: 10px 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
+.flex-item {
+    flex:0 1 auto; /*flex-grow flex-shrink flex-basis*/
+    align-self: center;
+    order:2;
+}
+.header-container{
+    color: #580000;
+    background-color: #806464a4;
+    display: flex;
+    justify-content: space-between;
+}
+.header {
+    width: 2500px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.photo-grid-container {
+    display: flex;
+    justify-content: space-between;
+}
+.photo-grid{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.photo-grid-item {
+    border: 1px solid #000000;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
 }
