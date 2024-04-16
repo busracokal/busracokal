@@ -5,21 +5,24 @@
 }
 body {
    width: 100%;
-   background-color: #798d99;
+   background-color: #e9e9e9;
+  
 }
+
 h1{
-    font-family: "Kalam", cursive;
-    border: 1px solid #550202;
+    font-family: "Times New Roman", cursive;
+    border: 0px solid #350101;
+    height: 80px;
 }
 h2 {
    background-color: #b68c8cc2;
    color: #000000;
-   font-family: "Kalam", cursive;
+   font-family: "Times New Roman", cursive;
 }
 .main-content {
      width: 70%;
      float: left;
-     padding: 10px;
+     padding: 50px;
 }
 .deneme{
    margin:0 auto;
@@ -45,7 +48,7 @@ h2 {
 .menu {
     display: flex;
     justify-content: space-between;
-    border: 1px solid #000000;
+    border: 0px solid #000000;
     width: flex;
 }
 .menu-container {
