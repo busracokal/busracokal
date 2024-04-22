@@ -11,8 +11,8 @@ body {
 h1{
     font-family: "Times New Roman";
     font-size: 50px;
-    border: 0px solid #4b0000;
-    height: 100px;
+    background-color: #ccc3c3;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
