@@ -5,16 +5,22 @@
 }
 body {
    width: 100%;
-   background-color: #798d99;
+   background-color: #ffffff;
+  
 }
 h1{
-    font-family: "Kalam", cursive;
-    border: 1px solid #550202;
-}
+    font-family: "Times New Roman";
+    font-size: 50px;
+    background-color: #ccc3c3;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 h2 {
    background-color: #b68c8cc2;
    color: #000000;
-   font-family: "Kalam", cursive;
+   font-family: "Times New Roman", cursive;
 }
 a{
     text-decoration: none;
@@ -23,7 +29,7 @@ a{
 .main-content {
      width: 70%;
      float: left;
-     padding: 10px;
+     padding: 50px;
 }
 .deneme{
    margin:0 auto;
@@ -32,14 +38,14 @@ a{
    color:#000000
 }
 .liste {
-   background-color: #beaeae;
+   background-color: #ededed;
    color: #000000;
 }
 .foto {
   width: 70%;
 }
 .links {
-    border: 1px solid #350000;
+    border: 0px solid #350000;
     display: flex;
     justify-content: flex-end;
 }
@@ -49,13 +55,17 @@ a{
 .menu {
     display: flex;
     justify-content: space-between;
-    border: 1px solid #000000;
-    width: flex;
+    border: 0px solid #000000;
+    width: 1500px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .menu-container {
-    color: #000000;
+    color: #4d0202;
     background-color: #79606000;
-    padding: 10px 0;
+    padding: 20px 0;
+    display: flex;
+    height: 60px;
 }
 
 .flex-container {
@@ -71,32 +81,54 @@ a{
     order:2;
 }
 .header-container{
-    color: #580000;
-    background-color: #806464a4;
+    color: #9b9b9b;
+    background-color: #cdcdcda4;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .header {
     width: 2500px;
-    height: 100px;
+    height: 150px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center; 
 }
 .photo-grid-container {
     display: flex;
-    justify-content: space-between;
-}
-.photo-grid{
-    width: 900px;
+    justify-content: center;
+  }
+  
+.photo-grid {
+    width: 964px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 5px;
-}
+    flex-direction: row;
+    gap: 10px;
+  }
+  
 .photo-grid-item {
-    border: 1px solid #000000;
+    border: 1px solid #b40e0e00;
     width: 300px;
-    height: 300px;
+    height: 300px; 
     justify-content: center;
 }
+.social-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-item {
+    border: 1px solid #fff;
+    background-color: #cacaca;
+    height: 50px;
+    flex: 1;
+  }
+  
