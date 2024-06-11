@@ -16,6 +16,10 @@ h2 {
    color: #000000;
    font-family: "Kalam", cursive;
 }
+a{
+    text-decoration: none;
+    color: #000000;
+}
 .main-content {
      width: 70%;
      float: left;
