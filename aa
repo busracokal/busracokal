@@ -1,0 +1,43 @@
+import matplotlib.pyplot as plt
+import matplotlib.patches as patches
+
+# Yeni bir figür ve eksen oluştur
+fig, ax = plt.subplots()
+
+# Giriş, merdiven ve asansör alanlarını temsil eden dikdörtgenleri ekle
+# Giriş alanı
+entry = patches.Rectangle((0.1, 0.7), 0.3, 0.2, linewidth=1, edgecolor='black', facecolor='none', label='Entry')
+
+# Merdiven alanı
+staircase = patches.Rectangle((0.1, 0.4), 0.3, 0.2, linewidth=1, edgecolor='red', facecolor='none', label='Staircase')
+
+# Asansör alanı (alternatif konum)
+elevator = patches.Rectangle((0.6, 0.4), 0.2, 0.2, linewidth=1, edgecolor='green', facecolor='none', label='Elevator')
+
+# Dikdörtgenleri eksene ekle
+ax.add_patch(entry)
+ax.add_patch(staircase)
+ax.add_patch(elevator)
+
+# Metin ekle
+plt.text(0.1, 0.9, 'Entry', fontsize=12, verticalalignment='center')
+plt.text(0.1, 0.5, 'Staircase', fontsize=12, verticalalignment='center')
+plt.text(0.6, 0.5, 'Elevator', fontsize=12, verticalalignment='center')
+
+# Sınırları ayarla ve eksenleri gizle
+plt.xlim(0, 1)
+plt.ylim(0, 1)
+ax.axis('off')
+
+# Başlık ekle
+plt.title('Proposed Layout for Museum Entrance (New Alternative)', fontsize=14)
+
+# PDF olarak kaydet
+new_pdf_path = '/mnt/data/museum_entrance_layout_new.pdf'
+plt.savefig(new_pdf_path, format='pdf')
+
+# Göster ve kapat
+plt.show()
+
+# PDF yolunu belirt
+new_pdf_path
