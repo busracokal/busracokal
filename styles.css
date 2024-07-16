@@ -64,6 +64,8 @@
 .container {
     display: flex; 
     align-items: center; 
+    justify-content: center;
+    align-items: center;
     max-width: 1000px; 
     background-color: #83595900;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0);
@@ -197,4 +199,10 @@ a{
 }
 
 @media (min-width: 769px) and (max-width: 1024px) { 
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
 }
