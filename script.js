@@ -1,18 +1,6 @@
 //declaring an array
 
-  
-  document.addEventListener("DOMContentLoaded", function() {
-    var currentTime = new Date().getHours();
-    var greetingMessage;
-  
-    if (currentTime >= 6 && currentTime < 18) {
-      greetingMessage = "Merhaba";
-    } else {
-      greetingMessage = "İyi Akşamlar";
-    }
-  
-    document.getElementById("greeting").textContent = greetingMessage;
-    
+document.addEventListener("DOMContentLoaded", function() {
     // Custom cursor setup
     var cursor = document.createElement("div");
     cursor.classList.add("custom-cursor");
@@ -23,6 +11,8 @@
       cursor.style.top = e.clientY + "px";
     });
   });
+  
+ 
 
 // script.js
 function setThemeBasedOnTime() {

@@ -10,84 +10,71 @@
   
 }
   .light {
-    background-color: rgba(207, 132, 132, 0.844);
-    color: rgb(26, 26, 26);
+    background-color: rgb(132, 90, 90);
+    color: rgb(255, 255, 255);
   }
   
   .dark {
-    background-color: rgba(42, 29, 29, 0.745);
-    color: rgb(193, 193, 193);
+    background-color: rgba(66, 50, 50, 0.486);
+    color: rgb(25, 25, 25);
   }
-.custom-cursor {
+  .custom-cursor {
     position: fixed;
     width: 30px;
     height: 30px;
-    background-color: rgb(21, 17, 18);
+    background-color: rgba(24, 24, 24, 0.811);
     border-radius: 50%;
     pointer-events: none;
     z-index: 10000;
   }
 
-  
-  .nav {
-    background-color: #7d484827;
-    height: 100px;
-  }
-  
- .header {
+
+.nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    
-  }
-  
-.header h1 a {
-    text-decoration: none;
-    color: black;
-    font-family:sans-serif ;
-    font-size: 28px;
-  }
-  
-  #navigation {
-    display: flex;
-    width: 100%;
-    height: 100px;
-  }
-  
-  #navigation a {
-    flex: 1;
-    color: rgb(241, 241, 241);
-    padding: 10px;
-    text-decoration: none;
-    text-align: center;
-    margin-top: 50px;
-  }
-  
-  #navigation a:hover {
-    background-color: #650d0d00;
-    color: black;
-  }
+    padding: 20px;
+    background-color: #37272709;
+    height: 150px;
+}
 
-  
-  @media (max-width: 600px) {
-    #navigation a {
-      padding: 10px 12px;
-      font-size: 14px;
-    }
-  }
+.nav h1 {
+    margin-right: 400px; /* büşra yazısının diğerlerinden uzak durması için */
+    font-size: 90px;
+    font-family: Papyrus;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: italic;
+    text-transform: lowercase;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 50px; /* linkler arası boşluk */
+    transition: color 0.3s;
+    margin-top: 200px;
+}
+
+.nav a:hover {
+    background-color: #76767628;
+    color: rgb(108, 3, 3); /* Mouse üstüne gelindiğinde renk değişimi */
+}
+
+
 
 
 .container {
     display: flex; /* İçerik öğelerini yatay olarak hizala */
     align-items: center; /* İçeriği dikey olarak ortala */
-    max-width: 900px; /* İçeriğin maksimum genişliği */
+    max-width: 1000px; /* İçeriğin maksimum genişliği */
     background-color: #83595900;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0);
     font-family: 'Arial', sans-serif;
     margin: 0 auto;
     justify-content: center; /* İçeriği yatay olarak ortala */
     align-items: center; /* İçeriği dikey olarak ortala */
-    height: 80vh; /* Ekran yüksekliği kadar genişlik */
+    height: 70vh; /* Ekran yüksekliği kadar genişlik */
 }
 
 .photo {
