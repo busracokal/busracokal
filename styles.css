@@ -5,7 +5,8 @@
    width: 100%;
    cursor: none; 
    transition: background-color 0.5s, color 0.5s;
-  
+   display: flex;
+   flex-direction: column;
 }
   
 .light {
@@ -36,6 +37,7 @@
     background-color: #37272709;
     height: 150px;
 }
+
 
 .nav h1 {
     margin-right: 400px; 
@@ -194,15 +196,3 @@ a{
     flex: 1;
   }
  
-@media (max-width: 768px) {
-    
-}
-
-@media (min-width: 769px) and (max-width: 1024px) { 
-}
-
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-    }
-}
