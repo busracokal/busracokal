@@ -7,7 +7,37 @@
    transition: background-color 0.5s, color 0.5s;
   
 }
-  .light {
+ 
+@media (max-width: 768px) {
+    
+    .menu {
+        flex-direction: column;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+   
+    .menu {
+        flex-direction: row;
+    }
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+
+.light {
     background-color: rgb(129, 90, 90);
     color: rgb(255, 255, 255);
   }
@@ -125,10 +155,6 @@ a{
     border: 0px solid #350000;
     display: flex;
     justify-content: flex-end;
-}
-.Yetenekler{
-    margin: 0 auto;
-    justify-content: center;
 }
 
 .flex-container {
