@@ -11,8 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
       cursor.style.top = e.clientY + "px";
     });
   });
-  
- 
+
 
 // script.js
 function setThemeBasedOnTime() {

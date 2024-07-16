@@ -1,7 +1,5 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+     box-sizing: border-box;
 }
 .body {
    width: 100%;
@@ -10,7 +8,7 @@
   
 }
   .light {
-    background-color: rgb(132, 90, 90);
+    background-color: rgb(129, 90, 90);
     color: rgb(255, 255, 255);
   }
   
@@ -39,7 +37,7 @@
 }
 
 .nav h1 {
-    margin-right: 400px; /* büşra yazısının diğerlerinden uzak durması için */
+    margin-right: 400px; 
     font-size: 90px;
     font-family: Papyrus;
     font-weight: 400;
@@ -51,46 +49,44 @@
 .nav a {
     text-decoration: none;
     color: black;
-    margin-right: 50px; /* linkler arası boşluk */
+    margin-right: 50px; 
     transition: color 0.3s;
     margin-top: 200px;
 }
 
 .nav a:hover {
     background-color: #76767628;
-    color: rgb(108, 3, 3); /* Mouse üstüne gelindiğinde renk değişimi */
+    color: rgb(108, 3, 3); 
 }
 
 
-
-
 .container {
-    display: flex; /* İçerik öğelerini yatay olarak hizala */
-    align-items: center; /* İçeriği dikey olarak ortala */
-    max-width: 1000px; /* İçeriğin maksimum genişliği */
+    display: flex; 
+    align-items: center; 
+    max-width: 1000px; 
     background-color: #83595900;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0);
     font-family: 'Arial', sans-serif;
     margin: 0 auto;
-    justify-content: center; /* İçeriği yatay olarak ortala */
-    align-items: center; /* İçeriği dikey olarak ortala */
-    height: 70vh; /* Ekran yüksekliği kadar genişlik */
+    justify-content: center;
+    align-items: center; 
+    height: 70vh; 
 }
 
 .photo {
-    flex: 1; /* Fotoğrafın aldığı alanı ayarlar */
-    text-align: center; /* Fotoğrafı yatay olarak ortalar */
+    flex: 1; 
+    text-align: center; 
 }
 
 .photo img {
-    max-width: 80%; /* Fotoğrafın maksimum genişlik */
-    height: auto; /* Otomatik yükseklik ayarı */
-    border-radius: 50%; /* Fotoğrafın kenarlarını yuvarla */
+    max-width: 80%; 
+    height: auto; 
+    border-radius: 50%; 
 }
 
 .text {
-    flex: 3; /* Metnin aldığı alanı ayarlar */
-    padding-left: 20px; /* Metin ile fotoğraf arasına boşluk bırakır */
+    flex: 3; 
+    padding-left: 20px; 
 }
 
 .text h2 {
@@ -102,8 +98,6 @@
     font-size: 18px;
     line-height: 1.6;
 }
-
-  
 
 a{
     text-decoration: none;
@@ -132,7 +126,10 @@ a{
     display: flex;
     justify-content: flex-end;
 }
-
+.Yetenekler{
+    margin: 0 auto;
+    justify-content: center;
+}
 
 .flex-container {
     display: flex;
